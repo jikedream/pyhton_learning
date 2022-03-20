@@ -62,8 +62,7 @@ from numpy import byte
 #     print(item)
 
 #创建set
-set1 = {1, 15,3,5,4,7}
-set2 = {1,2,3,15}
+set1 = {1, 15, 3, 5, 4, 7}
+set2 = {1, 2, 3, 15}
 
-
-print(set1- set2)
+print(set1 - set2)
