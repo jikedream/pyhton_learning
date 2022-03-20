@@ -109,4 +109,12 @@ for index, item in enumerate(listobj, start=1):  #可以自己指定索引开始
 
 ![image-20220320164208109](..\pic\pic3)
 
-* 
+* 取两个集合的交集，set1.intersection(set2)或者是set1 & set2，就是取两个集合共有的元素
+* 取两个集合的并集，set1.union(set2)或者是set1 | set2
+* 随机删除元素，set中的pop()函数随机删除一个元素并返回这个元素，list的pop()函数默认删除最后一个元素
+* 移除指定元素，discard()函数，参数是指定移除的函数值
+* 更新元素，使用update()函数，参数有且只能是一个集合
+
+## 48小结
+
+![image-20220320172630875](..\pic\pic4)
